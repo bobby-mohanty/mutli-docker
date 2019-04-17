@@ -3,28 +3,28 @@
     "containerDefinitions": [
         {
             "name": "client",
-            "image": "bobbymohanty/multi-client",
+            "image": "bobbymohanty/mutli-client",
             "hostname": "client",
             "essential": false,
             "memory": 128
         },
         {
             "name": "server",
-            "image": "bobbymohanty/multi-server",
+            "image": "bobbymohanty/mutli-server",
             "hostname": "api",
             "essential": false,
             "memory": 128
         },
         {
             "name": "worker",
-            "image": "bobbymohanty/multi-worker",
+            "image": "bobbymohanty/mutli-worker",
             "hostname": "worker",
             "essential": false,
             "memory": 128
         },
         {
             "name": "nginx",
-            "image": "bobbymohanty/multi-nginx",
+            "image": "bobbymohanty/mutli-nginx",
             "hostname": "nginx",
             "essential": true,
             "portMappings": [
